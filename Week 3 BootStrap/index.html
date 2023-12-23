@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+      <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+
+    <style>
+        section{
+
+            padding: 40px 0; 
+            margin: 20px 0;
+            background: green;
+        }
+        </style>   
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">NFL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav sm-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="PG2.html"> Content<span class="sr-only"></span></a>
+                    </li>               
+                </ul>            
+                </div>
+            </div>
+          </nav>
+    </header>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6" id="tcontent">
+                        <h3>NFL Teams</h3>
+                        <p>Here are the Top 3 Teams</p>            
+                        <table class="table table-dark table-hover">
+                            <thead>
+                            <tr>
+                                <th>Conference</th>
+                                <th>Team Name</th>
+                                <th>Record</th>
+                                <th>Conference Standings</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>NFC</td>
+                                <td>San Fransico 49ers</td>
+                                <td>11-3</td>
+                                <td>1st in NFC</td>
+                            </tr>
+                            <tr>
+                                <td>AFC</td>
+                                <td>Baltimore Ravens</td>
+                                <td>11-3</td>
+                                <td>1st in AFC </td>
+                            </tr>
+                            <tr>
+                                <td>NFC</td>
+                                <td>Dallas Cowboys</td>
+                                <td>10-4</td>
+                                <td>2nd in NFC</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6" id="formcontent">
+                        <h2>Enter Your Information</h2>
+                        <form>
+                            <div class="form-group">
+                              <label>First Name</label>
+                              <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Favorite Team</label>
+                                <input type="text" class="form-control" placeholder="Team">
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-dark">Submit</button>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+</body>
+</html>
